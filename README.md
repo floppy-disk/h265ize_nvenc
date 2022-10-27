@@ -12,6 +12,7 @@ If you have any questions or h265ize isn't working for you, feel free to open an
 
 ## Features
 
+- Uses hevc_nvenc encoder, requires the system to already have NVIDIA Drivers and CUDA installed
 - Works on Windows, OSX, and Linux
 - Batch file processing (can process a whole folder)
 - Automatically detects video files (only processes video files found within a folder)
@@ -42,15 +43,9 @@ If you have any questions or h265ize isn't working for you, feel free to open an
 
 ## Installation
 
-To install h265ize run one of the following command lines to download and install.
+To install h265ize run the following command lines to download and install.
 
-### Stable
-
-```
-npm install h265ize --global
-```
-
-### Bleeding Edge
+### Bleeding Edge - Required for hardware acceleration 
 
 ```
 npm install FallingSnow/h265ize --global
